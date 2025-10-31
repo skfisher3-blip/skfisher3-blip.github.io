@@ -1,7 +1,41 @@
 body {
-   background-color: lightpink;
+  background-color: #001f3f; /* navy blue background */
+  color: #fce4ec; /* light pink text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-h1 {
-   color: navy;
-   margin-left: 20px;
+
+h1, h2, h3 {
+  color: #fce4ec; /* light pink headings */
+}
+
+a {
+  color: #f8bbd0; /* soft pink links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff80ab; /* brighter pink on hover */
+}
+
+header, footer {
+  background-color: #fce4ec; /* light pink bar */
+  color: #001f3f; /* navy text for contrast */
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  background-color: #00264d; /* slightly lighter navy box */
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 2px solid #f8bbd0;
 }
